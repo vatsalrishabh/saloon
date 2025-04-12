@@ -8,9 +8,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        custombg: "rgb(239 183 221)", // Dark background
-        brightPink: "#FF6F91", // Bright pink for active states
-        lightPink: "#FFD3E2", // Light pink for hover
+        custombg: "#622a6e", // Dark background
+        brightPink: "#562665", // Bright blue for active states
+        lightPink: "#ca26bc", // Light pink for hover
         customText: "rgb(81 75 75)", // Default text color
         customIcon: "#B0B0B0", // Icon default color
         gray: {

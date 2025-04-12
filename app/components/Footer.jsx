@@ -90,10 +90,10 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="bottomFooter flex flex-col lg:flex-row items-center justify-between mt-8 border-t border-gray-700 pt-4 px-8">
         <div className="bottomFooter-Left text-gray-400">
-          StyleDivaa is your one-stop destination for bespoke fashion and elegance.
+          Saloon is your one-stop destination for bespoke fashion and elegance.
         </div>
         <div className="bottomFooter-Right text-gray-400 mt-4 lg:mt-0">
-          © {year} StyleDivaa | All Rights Reserved | Powered by{" "}
+          © {year} Saloon | All Rights Reserved | Powered by{" "}
           <Link href="https://www.nebulanet.in">
             <span className="text-brightPink hover:text-lightPink transition-all duration-300 cursor-pointer">
               NebulaNet
