@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import RightIconSmartphone from './components/SmartphoneCartIcon/RightIconSmartphone';
 import { seoMetadata } from "./SEO/seoMetadata";
 import ForHerHome from './ForHerHome';
+import HeroSlider from './components/HeroSlider';
 
 export default function Home() {
     return (
@@ -61,6 +62,7 @@ export default function Home() {
 
             {/* Page Content */}
             <Navbar />
+            <HeroSlider/>
             <ForHerHome />
             <RightIconSmartphone /> {/* Static cart icon & slideshow */}
             <Footer />
