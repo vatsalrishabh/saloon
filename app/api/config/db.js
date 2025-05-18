@@ -7,7 +7,7 @@ const DATABASE_URL = "mongodb://housenplots_dkleanuser:a47PJkc&K@localhost:27017
 if (!DATABASE_URL) {
   throw new Error("Please define the DATABASE_URL environment variable inside .env.local");
 }
-
+//ll
 let cached = global.mongoose;
 
 if (!cached) {
