@@ -6,7 +6,7 @@ import { Menu as MenuIcon, Close as CloseIcon, ExpandMore, ExpandLess,   ArrowDr
   ArrowDropUp } from "@mui/icons-material";
 import LogInUserDetail from "./LogInUserDetail";
 import logo from "../../public/assets/styledivaalogo.png";
-import logowbg from "../../public/assets/styledivaawbg.png";
+import logowbg from "../../public/assets/apusalon.png";
 
 const AnNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);

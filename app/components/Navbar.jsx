@@ -9,7 +9,7 @@ import {
   ArrowDropDown,
   ArrowDropUp,
 } from "@mui/icons-material";
-import logo from "../../public/assets/styledivaalogo.png";
+import logo from "../../public/assets/apusalon.png";
 import AnNavbar from "./AnNavbar";
 import Link from "next/link";
 import "animate.css";
