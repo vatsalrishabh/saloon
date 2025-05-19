@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <>
       <RightSlideCart />
-      <RightIconSmartphone />
+      {/* <RightIconSmartphone /> */}
 
       <div className="min-h-screen bg-pink-50 flex flex-col items-center">
         {/* Header */}

@@ -75,7 +75,7 @@ const StepTwo = ({ gotoPrevStep }) => {
         key: 'rzp_test_l0gnUnaG8U4VmM',
         amount: totalAmount * 100,
         currency: "INR",
-        name: 'Styledivaa Fashion Boutique',
+        name: 'APUSALON Fashion Boutique',
         description: 'Product Purchase',
         order_id: response.data.id,  // Ensure `order.id` exists
         callback_url: `api/orders/paymentSuccess`,

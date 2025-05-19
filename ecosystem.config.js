@@ -1,10 +1,10 @@
 module.exports = {
     apps: [
       {
-        name: "styledivaa",
+        name: "apusaloon",
         script: "npm",
         args: "start",
-        cwd: "/path/to/styledivaa", // Update this path
+        cwd: "/path/to/apusaloon", // Update this path
         env: {
           NODE_ENV: "production",
         },

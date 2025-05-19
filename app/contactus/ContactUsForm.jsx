@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import axios from "axios";
-import logo from "../../public/assets/styledivaalogo.png";
+// import logo from "../../public/assets/styledivaalogo.png";
+import logo from "../../public/assets/apusalon.png";
 
 const ContactUsForm = () => {
   const [formData, setFormData] = useState({
@@ -81,9 +82,9 @@ const ContactUsForm = () => {
           </div>
 
           <div className="col3 flex flex-col justify-center items-center text-center">
-            <h1 className="text-2xl font-semibold text-gray-800 mb-4">Welcome to Style Divaa</h1>
+            <h1 className="text-2xl font-semibold text-gray-800 mb-4">Welcome to APUSALON</h1>
             <p className="text-gray-600 text-lg font-medium">
-              Custom clothing and expert stitching services in Bangalore.
+             Best Saloon in Bangalore.
             </p>
           </div>
         </div>
@@ -97,10 +98,10 @@ const ContactUsForm = () => {
           Call us +91 9742782429
         </Link>
         <Link
-          href="mailto:contact@styledivaa.com"
+          href="mailto:contact@APUSALON.com"
           className="text-2xl font-light text-gray-800 hover:text-blue-600"
         >
-          Email us at contact@styledivaa.com
+          Email us at contact@APUSALON.com
         </Link>
       </div>
     </>

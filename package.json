@@ -1,11 +1,11 @@
 {
-  "name": "styledivaa",
+  "name": "apusaloon",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start -p 4001",
+    "start": "next start -p 4003",
     "lint": "next lint"
   },
   "dependencies": {

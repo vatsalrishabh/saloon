@@ -28,7 +28,7 @@ const LoginModal = (props) => {
       <Dialog open={props.isOpen} onClose={props.onClose} fullWidth maxWidth="xs">
         <DialogTitle>
           <Typography variant="h6" align="center" color="primary">
-            Welcome to StyleDivaa
+            Welcome to APUSALON
           </Typography>
         </DialogTitle>
         <DialogContent>

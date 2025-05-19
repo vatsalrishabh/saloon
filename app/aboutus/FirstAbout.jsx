@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import aboutimg from "../../public/assets/aboutpg.jpg"
+import aboutimg from "../../public/assets/aboutpg.avif";
 
 const FirstAbout = () => {
   return (
@@ -9,7 +9,7 @@ const FirstAbout = () => {
       {/* Top Heading */}
       <div className="top-heading flex justify-center p-6">
         <h1 className="text-5xl font-extrabold text-pink-600 font-serif tracking-wide">
-          Style Diva Designer Boutique
+          APUSALON
         </h1>
       </div>
 
@@ -19,7 +19,7 @@ const FirstAbout = () => {
         <div className="image-container relative group">
           <Image
             src={aboutimg}
-            alt="Pink Street Style Fashion"
+            alt="ApuSalon Interior"
             width={500}
             height={500}
             className="rounded-lg shadow-lg transform transition duration-500 group-hover:scale-105"
@@ -33,10 +33,10 @@ const FirstAbout = () => {
             Our Vision
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            At Style Diva, we envision creating bespoke fashion that celebrates
-            individuality and elegance. From bridal couture to casual wear, our
-            designs blend tradition with modernity, crafted with meticulous
-            attention to detail.
+            At ApuSalon, we aim to redefine grooming experiences with style,
+            precision, and personal care. Located in the heart of Bangalore, we
+            bring salon-quality services to our community with unmatched comfort
+            and professionalism.
           </p>
           <button className="px-6 py-2 text-white bg-pink-600 rounded-lg hover:bg-pink-700 focus:ring focus:ring-pink-300 transform transition hover:-translate-y-1">
             Learn More
@@ -49,9 +49,10 @@ const FirstAbout = () => {
             Our Services
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed">
-            We offer a wide range of customized stitching services for bridal
-            blouses, lehengas, half sarees, and designer dresses. Our expertise
-            in embroidery and tailoring ensures every piece is a masterpiece.
+            From stylish haircuts and beard grooming to facials and hair spa,
+            ApuSalon offers a full range of grooming services for men and women.
+            Book your slot online and enjoy professional care tailored to your
+            preferences.
           </p>
           <button className="px-6 py-2 text-white bg-pink-600 rounded-lg hover:bg-pink-700 focus:ring focus:ring-pink-300 transform transition hover:-translate-y-1">
             Explore Services
@@ -62,16 +63,16 @@ const FirstAbout = () => {
       {/* Additional Section */}
       <div className="mt-12 text-center">
         <h2 className="text-4xl font-bold text-gray-800 font-serif">
-          Why Choose Us?
+          Why Choose ApuSalon?
         </h2>
         <p className="text-lg text-gray-600 mt-4 leading-relaxed max-w-3xl mx-auto">
-          With over a decade of experience in the fashion industry, we take
-          pride in delivering unparalleled craftsmanship and customer
-          satisfaction. Located in JP Nagar, Bangalore, Style Diva is your
-          trusted partner for all things fashion.
+          With years of experience and a passion for grooming excellence,
+          ApuSalon delivers quality, hygiene, and personalized service that our
+          clients in Bangalore trust. Step into our salon for a fresh look and a
+          relaxing experience.
         </p>
         <button className="px-8 py-3 mt-6 text-white bg-gray-800 rounded-lg hover:bg-gray-900 focus:ring focus:ring-gray-400 transform transition hover:-translate-y-1">
-          Visit Us Today
+          Book Your Visit
         </button>
       </div>
     </div>

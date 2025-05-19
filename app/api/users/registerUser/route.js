@@ -32,12 +32,12 @@ export async function POST(request) {
         };
         const otpExists = await Otp.find({email:dataa?.email});
         if(otpExists.length>0){
-            await emailRegistration(dataa?.email, otpExists.otp, "StyleDivaa OTP Verification"); 
+            await emailRegistration(dataa?.email, otpExists.otp, "APUSALON OTP Verification"); 
             console.log("OTP sent which was already present:", otp);
             return NextResponse.json({ message: "User Created and OTP Sent" }, { status: 201 });
         }
         
-        await emailRegistration(dataa?.email, otp, "StyleDivaa OTP Verification"); 
+        await emailRegistration(dataa?.email, otp, "APUSALON OTP Verification"); 
         await Otp.create(otpData);
         return NextResponse.json({ message: "User Created and OTP Sent" }, { status: 201 });
 

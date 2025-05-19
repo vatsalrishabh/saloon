@@ -6,6 +6,7 @@ import RightIconSmartphone from './components/SmartphoneCartIcon/RightIconSmartp
 import { seoMetadata } from "./SEO/seoMetadata";
 import ForHerHome from './ForHerHome';
 import HeroSlider from './components/HeroSlider';
+import SpeedDiall from './components/SpeedDiall';
 
 export default function Home() {
     return (
@@ -45,13 +46,13 @@ export default function Home() {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "Organization",
-                            "name": "StyleDivaa",
+                            "name": "APUSALON",
                             "url": seoMetadata.openGraph.url,
                             "logo": seoMetadata.openGraph.images[0].url,
                             "sameAs": [
-                                "https://www.facebook.com/styledivaa",
-                                "https://www.instagram.com/style_diva33",
-                                "https://www.linkedin.com/company/styledivaa",
+                                "https://www.facebook.com/APUSALON",
+                                "https://www.instagram.com/APUSALON",
+                                "https://www.linkedin.com/company/APUSALON",
                                 seoMetadata.openGraph.url
                             ],
                             "description": seoMetadata.description
@@ -64,7 +65,8 @@ export default function Home() {
             <Navbar />
             <HeroSlider/>
             <ForHerHome />
-            <RightIconSmartphone /> {/* Static cart icon & slideshow */}
+            <SpeedDiall/>
+            {/* <RightIconSmartphone /> Static cart icon & slideshow */}
             <Footer />
         </div>
     );

@@ -14,7 +14,7 @@ const Footer = () => {
             About Us
           </h1>
           <p className="hover:text-gray-100 transition-all duration-300">
-            StyleDivaa, based in Bangalore, offers custom designer dresses, 
+            APUSALON, based in Bangalore, offers custom designer dresses, 
             expert tailoring, and fashion courses. Elevate your style and 
             learn the art of fashion with us.
           </p>

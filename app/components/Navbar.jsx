@@ -4,12 +4,13 @@ import Image from "next/image";
 import Badge from "@mui/material/Badge";
 import {
   Search,
-  ShoppingCart,
   Close,
   ArrowDropDown,
   ArrowDropUp,
 } from "@mui/icons-material";
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import logo from "../../public/assets/apusalon.png";
+import haircut from "../../public/assets/haircut.png";
 import AnNavbar from "./AnNavbar";
 import Link from "next/link";
 import "animate.css";
@@ -78,14 +79,14 @@ const Navbar = () => {
 
   const tabs = [
     {
-      name: "Shop Here",
+      name: "Our Services",
       href: "/forher",
       dropdown: true,
       subNav: [
-        { name: "Dress Materials", href: "/dressmaterial" },
-        { name: "Readymade Kurtas", href: "/kurtas" },
-        { name: "Readymade Dress", href: "/readymadedress" },
-        { name: "Western Dress", href: "/westerndress" },
+        { name: "Hair Services", href: "/dressmaterial" },
+        { name: "Skincare & Facial", href: "/kurtas" },
+        { name: "Make Up", href: "/readymadedress" },
+        { name: "Body Care", href: "/westerndress" },
       ],
     },
     { name: "About Us", href: "/aboutus", dropdown: false },
@@ -111,11 +112,12 @@ const Navbar = () => {
   const toggleSearch = () => setIsSearchOpen(!isSearchOpen);
 
  const gotoHome =()=>{
-    router.push("/"); //push to home when clicked on StyleDiva Icon
+    router.push("/"); //push to home when clicked on APUSALON Icon
   }
 
   return (
-    <div className="w-full lg:h-[25vh] bg-custombg text-white">
+    //  <div className="w-full lg:h-[25vh] bg-custombg text-white"> 
+         <div className="w-full lg:h-[25vh] bg-gray-100 text-white"> 
       {/* the right sidec slide cart starts */}
       <RightSlideCart />
       {/* the rigt side slide cart ends */}
@@ -177,9 +179,9 @@ const Navbar = () => {
                 </div>
               ))}
 
-              <Link href="/enroll">
+              <Link href="/booking">
                 <p className="bg-pink-700 px-4 py-2 rounded-md text-center text-white text-lg font-bold cursor-pointer animate-flash hover:bg-pink-800 hover:scale-105 transition-all duration-300">
-                  Enroll Now
+                  Book Now
                 </p>
               </Link>
             </div>
@@ -188,7 +190,7 @@ const Navbar = () => {
           {/* Icons Section */}
           <div
             className={
-              scrollNum ? "w-1/6 h-full flex" : "w-1/6 h-full flex bg-custombg"
+              scrollNum ? "w-1/6 h-full flex" : "w-1/6 h-full flex bg-gray-100"
             }
           >
             <div className="breakerHol w-[8px] h-[108%]">
@@ -232,7 +234,7 @@ const Navbar = () => {
                       },
                     }}
                   >
-                    <ShoppingCart className="cursor-pointer hover:scale-110 transition-all duration-300 text-customIcon hover:text-brightPink" />
+                    <CalendarMonthIcon className="cursor-pointer hover:scale-110 transition-all duration-300 text-customIcon hover:text-brightPink" />
                   </Badge>
                 </div>
               </div>

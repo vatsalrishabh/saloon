@@ -11,7 +11,7 @@ const page = () => {
     <div className='Enroll-Now'>
       <Navbar/>
       <EnrollTop />
-      <RightIconSmartphone />    {/* this component has static cart icon in left, right slideshow */}
+    {/*     <RightIconSmartphone />  this component has static cart icon in left, right slideshow */}
       <Footer/>
     </div>
   )

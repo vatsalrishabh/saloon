@@ -1,6 +1,6 @@
 export const seoMetadata = {
-    title: "StyleDivaa | Best Boutique in Bangalore & Designer Dresses",
-    description: "Explore StyleDivaa, the best designer boutique in Bangalore offering luxury fashion, custom dresses, and bridal wear. Delivering across India and internationally.",
+    title: "APUSALON | Best Boutique in Bangalore & Designer Dresses",
+    description: "Explore APUSALON, the best designer boutique in Bangalore offering luxury fashion, custom dresses, and bridal wear. Delivering across India and internationally.",
     keywords: [
         "best boutique in Bangalore", "designer boutique", "bridal wear", "luxury fashion", "custom tailoring", "boutique dresses India", 
         "Indian ethnic wear", "party wear", "high-end fashion", "online boutique India", "best designer boutique in India", 
@@ -18,25 +18,25 @@ export const seoMetadata = {
         "luxury Indian fashion worldwide delivery", "exclusive boutique clothing India", "Indian boutique brands with global delivery", 
         "online boutique business ideas India", "custom designer outfits for special occasions"
     ],
-    authors: [{ name: "StyleDivaa", url: "https://www.styledivadesignerboutique.com/" }],
+    authors: [{ name: "APUSALON", url: "https://www.APUSALON.com/" }],
     openGraph: {
         type: "website",
-        url: "https://www.styledivadesignerboutique.com/",
-        title: "StyleDivaa | Best Boutique in Bangalore & Designer Dresses",
+        url: "https://www.APUSALON.com/",
+        title: "APUSALON | Best Boutique in Bangalore & Designer Dresses",
         description: "Discover the finest fashion boutique in Bangalore for custom designer dresses, ethnic wear, and wardrobe consultancy.",
         images: [
             {
-                url: "https://www.styledivadesignerboutique.com/assets/styledivaalogo.png",
+                url: "https://www.APUSALON.com/assets/styledivaalogo.png",
                 width: 800,
                 height: 600,
-                alt: "StyleDivaa Logo",
+                alt: "APUSALON Logo",
             },
         ],
     },
     twitter: {
         card: "summary_large_image",
-        title: "StyleDivaa | Designer Boutique & Fashion Courses",
-        description: "Shop at StyleDivaa, Bangalore’s leading designer boutique for luxury dresses, bridal wear, and professional fashion courses.",
+        title: "APUSALON | Designer Boutique & Fashion Courses",
+        description: "Shop at APUSALON, Bangalore’s leading designer boutique for luxury dresses, bridal wear, and professional fashion courses.",
         images: ["https://www.styledivadesignerboutique.com/assets/styledivaalogo.png"],
     },
     instagram: {
@@ -52,14 +52,14 @@ export const seoMetadata = {
     schemaMarkup: {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "StyleDivaa",
-        "url": "https://www.styledivadesignerboutique.com/",
-        "logo": "https://www.styledivadesignerboutique.com/assets/styledivaalogo.png",
+        "name": "APUSALON",
+        "url": "https://www.APUSALON.com/",
+        "logo": "https://www.APUSALON.com/assets/styledivaalogo.png",
         "sameAs": [
             "https://www.instagram.com/style_diva33",
-            "https://www.facebook.com/StyleDivaaBoutique",
-            "https://www.pinterest.com/styledivaa/",
-            "https://twitter.com/StyleDivaaFashion"
+            "https://www.facebook.com/APUSALON",
+            "https://www.pinterest.com/APUSALON/",
+            "https://twitter.com/APUSALON"
         ],
         "contactPoint": {
             "@type": "ContactPoint",
@@ -79,13 +79,13 @@ export const seoMetadata = {
     },
     additionalSEO: {
         robots: "index, follow",
-        canonical: "https://www.styledivadesignerboutique.com/",
+        canonical: "https://www.APUSALON.com/",
         alternateLanguages: [
-            { lang: "en", url: "https://www.styledivadesignerboutique.com/en/" },
-            { lang: "hi", url: "https://www.styledivadesignerboutique.com/hi/" }
+            { lang: "en", url: "https://www.APUSALON.com/en/" },
+            { lang: "hi", url: "https://www.APUSALON.com/hi/" }
         ],
         metaTags: [
-            { name: "author", content: "StyleDivaa" },
+            { name: "author", content: "APUSALON" },
             { name: "theme-color", content: "#D81B60" },
             { name: "mobile-web-app-capable", content: "yes" },
             { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" }

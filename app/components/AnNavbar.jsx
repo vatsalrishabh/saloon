@@ -19,14 +19,14 @@ const AnNavbar = () => {
 
   const navLinks = [
     {
-      title: "Shop Here",
+      title: "Our Services",
       href: "#",
 
       subLinks: [
-        { title: "Dress Materials", href: "/dressmaterial" },
-        { title: "Readymade Kurtas", href: "/kurtas" },
-        { title: "Readymade Dress", href: "/readymadedress" },
-        { title: "Western Dress", href: "/westerndress" },
+        { title: "Hair Services", href: "/dressmaterial" },
+        { title: "Skincare & Facial", href: "/kurtas" },
+        { title: "Make Up", href: "/readymadedress" },
+        { title: "Body Care", href: "/westerndress" },
       ],
     },
     { title: "About Us", href: "/aboutus" },

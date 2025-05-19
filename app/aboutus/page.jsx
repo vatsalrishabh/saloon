@@ -14,7 +14,7 @@ const page = () => {
 <Navbar/>
   <FirstAbout/>
   <CountingAbout/>
-  <RightIconSmartphone />    {/* this component has static cart icon in left, right slideshow */}
+ {/* <RightIconSmartphone />     this component has static cart icon in left, right slideshow */}
       <Footer/> 
     </div>
   )

@@ -13,7 +13,7 @@ const page = () => {
       <Navbar/>
       <PageTitle pagetitle="Contact Us" />
       <ContactUsForm/>
-      <RightIconSmartphone />    {/* this component has static cart icon in left, right slideshow */}
+    {/*   <RightIconSmartphone />    this component has static cart icon in left, right slideshow */}
       <Footer/> 
     </div>
   )

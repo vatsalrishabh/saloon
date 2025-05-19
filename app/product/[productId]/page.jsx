@@ -38,7 +38,7 @@ const Page = () => {
   return (
     <>
       <Navbar />
-      <RightIconSmartphone />
+      {/* <RightIconSmartphone /> */}
       <div className="w-full">
         <div className="px-4 pt-4">
           <BreadCrumbs one="Home" oneLink="/" two="Product" twoLink="/product" />
